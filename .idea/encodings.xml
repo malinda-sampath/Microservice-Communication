@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/01. EmployeeManagementMicroService - Rest Template/department-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01. EmployeeManagementMicroService - Rest Template/employee-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02. EmployeeManagementMicroService - Web Client/department-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02. EmployeeManagementMicroService - Web Client/employee-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03. EmployeeManagementMicroService - Spring Cloud OpenFeign/department-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03. EmployeeManagementMicroService - Spring Cloud OpenFeign/employee-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

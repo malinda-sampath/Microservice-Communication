@@ -53,6 +53,9 @@ public class EmployeeServiceIMPL implements EmployeeService {
                 .bodyToMono(DepartmentDTO.class)
                 .block();//Make the request synchronous
 
+        //https://www.javaguides.net/2022/10/spring-boot-microservices-communication-using-webclient.html
+        //example of using webclient to make a synchronous request
+
         EmployeeDTO employeeDTO = new EmployeeDTO(
                 employee.getId(),
                 employee.getFirstName(),

@@ -7,7 +7,6 @@ import com.microService.employee_service.entity.Employee;
 import com.microService.employee_service.repository.EmployeeRepository;
 import com.microService.employee_service.service.EmployeeService;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -51,6 +50,9 @@ public class EmployeeServiceIMPL implements EmployeeService {
                 DepartmentDTO.class);
 
         DepartmentDTO departmentDTO = responseEntity.getBody();
+
+        //https://www.javaguides.net/2022/10/spring-boot-microservices-communication-using-resttemplate.html
+        //example of using resttemplate to make a synchronous request
 
         EmployeeDTO employeeDTO = new EmployeeDTO(
                 employee.getId(),
