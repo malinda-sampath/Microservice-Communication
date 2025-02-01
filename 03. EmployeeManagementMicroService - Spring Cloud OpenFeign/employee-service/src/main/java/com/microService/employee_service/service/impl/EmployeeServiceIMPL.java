@@ -46,6 +46,9 @@ public class EmployeeServiceIMPL implements EmployeeService {
 
         DepartmentDTO departmentDTO = apiClient.getDepartment(employee.getDepartmentCode());
 
+        //https://www.javaguides.net/2022/10/spring-boot-microservices-communication-using-spring-cloud-open-feign.html
+        //Example of how to use Feign Client to call another microservice
+
         EmployeeDTO employeeDTO = new EmployeeDTO(
                 employee.getId(),
                 employee.getFirstName(),
